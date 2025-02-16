@@ -11,7 +11,8 @@ const StoreContextProvider = (props) => {
     const [food_list, setFood_list] = useState([]);
     const [userId, setUserId] = useState(null); // Store userId here
 
-    const url = "http://localhost:3001"; // Your backend URL
+    // const url = "http://localhost:3001"; // Your backend URL
+    const url = "https://dhabha-backend.onrender.com"
 
     // Add to cart function
     const addToCart = async (itemId) => {
